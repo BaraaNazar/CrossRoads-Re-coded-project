@@ -39,10 +39,11 @@ height: 100vh;
 ul li a, li{
     list-style-type: none;
     text-decoration: none;
-    color: #3d513f;
+    /* color: #3d513f; */
     font-size: 15px;
     font-family: sans-serif;
-    text-transform:uppercase ;
+    text-transform:
+    uppercase;
     font-weight: 200;
 }
 
@@ -153,4 +154,21 @@ height: 600px;
     justify-content: center;
     text-align: center;
 
+}
+.grid-display-of-our-photos{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    grid-area: auto;
+}
+
+.grid-img-of-five{
+    width: 280px;
+    height: 280px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padding{
+    padding: 10px;
 }
