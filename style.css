@@ -172,3 +172,10 @@ height: 600px;
 .padding{
     padding: 10px;
 }
+
+/* Change navBar on scroll */
+.nav-scrolled .logo-img-container img {
+  width: 214px;
+  height: 80px;
+  padding-top: 70px;
+}
