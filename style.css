@@ -39,7 +39,7 @@ height: 100vh;
 ul li a, li{
     list-style-type: none;
     text-decoration: none;
-    /* color: #3d513f; */
+    color: #3d513f;
     font-size: 15px;
     font-family: sans-serif;
     text-transform:
@@ -83,10 +83,10 @@ font-size: 50px;
 }
 
 .btn-menu{
-    font-size: 16px;
+    font-size: 14px;
     padding: 8px;
     text-align: center;
-    margin: 10px;
+    margin: 8px;
 }
 .btn-menu a{
     text-decoration: none;
@@ -163,8 +163,8 @@ height: 600px;
 }
 
 .grid-img-of-five{
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 250px;
     padding: 5px;
     background-repeat: no-repeat;
     background-size: cover;
