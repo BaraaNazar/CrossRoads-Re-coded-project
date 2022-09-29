@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | CrossRoads</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script src="contact.js" defer></script>
+    <link
+      href="//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="header-fixed" id="header"></div>
+    <!-- Start of header -->
+    <header class="nav-container">
+      <div class="logo-img-container nav-container-logo" id="nav">
+        <a href="./index.html"
+          ><img src="./img/img5.png" alt="CrossRoads Logo" id="logo-black"
+        /></a>
+      </div>
+      <!-- Start of nav -->
+      <nav class="top-nav">
+        <ul>
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./menu.html">menus</a></li>
+          <li > <a href="./contact.html">Contact us</a></li>
+          <li><a href="#">Deals</a></li>
+          <button class="nav-btn"><a href="#"> Order online !</a></button>
+        </ul>
+      </nav>
+      <!-- End of nav -->
+    </header>
+    <!-- End of header -->
+
+    <!-- Start of content container-->
+    <div class="content-container">
+      <!-- Start of description-->
+      <div class="description">
+        <div class="description-img-container">
+          <img src="./img/califonia.jpg" alt="Map Image" />
+        </div>
+        <h1>Contact US</h1>
+        <p>
+          Send us a message and we’ll get back to you as soon as possible. Do
+          you need to <span>MODIFY</span> an online order? Please
+          <span>CALL</span> the location directly. We do not check emails during
+          service so we can keep up with your orders!
+        </p>
+        <p>Thank you</p>
+        <p>HIGH ST SLO (805) 541-4738</p>
+        <p>HIGH ST BAYWOOD (805) 439-2977</p>
+      </div>
+      <!-- End of description-->
+      <!-- Start  of forum-->
+      <form action="#">
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Phone" />
+        <select name="location" id="location">
+          <option value="0" disabled selected>
+            Which location are you contacting?
+          </option>
+          <option value="1">High St</option>
+          <option value="2">Baywood Park</option>
+        </select>
+        <select name="inquiry" id="inquiry">
+          <option value="0" disabled selected>
+            What are you getting in touch about?
+          </option>
+          <option value="1">General inquiry</option>
+          <option value="2">Press inquiry</option>
+        </select>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send" />
+      </form>
+      <!-- End  of forum-->
+    </div>
+    <!-- End of content container-->
+  </body>
+</html>

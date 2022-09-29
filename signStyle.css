@@ -1,0 +1,71 @@
+
+body{
+    background-image: url("CrossRoad Pattern-Black-01.jpg");
+    background-size: 600px auto;
+    background-repeat: repeat;
+   display: flex;
+   justify-content: center;
+}
+
+.form{
+    margin-top: 150px;
+    width: 500px;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,1);
+    background-color: rgba(255, 225, 0);
+    color: rgb(0, 0, 0);
+    border: 2px solid black ;
+    border-radius: 5px;
+}
+.sign{
+padding-left: 4%;
+color: rgb(0, 0, 0);
+}
+h1{
+    padding-top: 20px;
+}
+
+.sign button{
+height: 30px;
+width: 150px;
+box-shadow: 5px  5px 0  0 black ;
+align-self: center;
+cursor: pointer;
+}
+.sign button:hover {
+    color: rgb(0, 0, 0);
+    background-color: #334834;
+    border-color: #fff;
+  }
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+input[type=text],input[type=password]{
+    width: 96%;
+    padding: 7px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+
+}
+
+ hr{
+    width: 80%;
+    margin: auto;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.or img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .form{
+        width: 400px;
+    }
+}

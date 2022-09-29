@@ -1,0 +1,318 @@
+html,body {
+    margin:0;
+    padding:0;
+    }
+/* .menubackground img {
+    background: url('./CrossRoad Pattern-Black-01.jpg');
+    background-repeat: repeat;
+    background-size: 300px 300px;
+    width: 100%;
+    height: auto;
+} */
+header {
+    background: black;
+    height: 80%;
+    overflow: hidden;
+}
+.headerimage {
+    top: 0px;
+    position: relative;
+    margin: 0px;
+}
+.headerimage img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    opacity: 0.8;
+}
+#image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+    font-size: 120px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px rgb(255, 225, 0);
+    text-align: center;
+}
+/*  */
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.flex-header{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-items: flex-start;
+height: 100vh;
+}
+.img1{
+    background-image: url(./food.jpg);
+}
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+.flex-nav a{
+    padding: 10px;
+}
+.white-background{
+    background-color: #FFFFFF;
+}
+.btn-order-online{
+    box-shadow: 4px 5px #000000;
+    border: 2px solid #334834;
+    border-radius: 3px;
+}
+ul li a, li{
+    list-style-type: none;
+    text-decoration: none;
+    color: #3D513F;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform:
+    uppercase;
+    font-weight: 200;
+}
+.border{
+    border: 1.5px solid #334834;
+    border-radius:3px;
+    box-shadow: 10px 5px rgba(255, 225, 0);
+}
+a:hover{
+    text-decoration:underline ;
+    font-weight:bold;
+}
+.flex-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex-section-background{
+    width: 100%;
+    height: 400px;
+    background-color: #334834;
+    color: white;
+}
+.font-size{
+font-size: 50px;
+}
+.font-family{
+    font-family: sans-serif;
+}
+.flex-section h1{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.border{
+    border: 1.5px solid #334834;
+    border-radius:3px;
+    box-shadow: 10px 5px rgba(255, 225, 0);
+}
+a:hover{
+    text-decoration:underline ;
+    font-weight:bold;
+}
+.flex-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex-section-background{
+    width: 100%;
+    height: 400px;
+    background-color: #334834;
+    color: white;
+}
+.font-size{
+font-size: 50px;
+}
+.font-family{
+    font-family: sans-serif;
+}
+.flex-section h1{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-menu{
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+    margin: 8px;
+}
+.btn-menu a{
+    text-decoration: none;
+    color: black;
+}
+.btn-menu a:hover{
+    color: white;
+    background-color: #3D513F;
+}
+.btn-menu:hover{
+    background-color: #334834;
+    color: white;
+    border: 1px solid white;
+}
+.font-weight{
+    font-weight: 100;
+}
+.margin-left-top{
+    margin-left: 850px;
+    margin-top: 80px;
+}
+.sticky-postion{
+    position: sticky;
+    top:20px;
+}
+.fixed-postion{
+    position: fixed;
+    top: 2px;
+}
+.flex-middle-part{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.section-items-width{
+    width: 900px;
+}
+.padding-order-catering{
+    padding: 50px;
+}
+.background-color-order-catering{
+    background-color: #334834;
+    color: #FFFFFF;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    align-self: center;
+    padding: 20px;
+}
+.bg-order-catering{
+background-image: url(./CrossRoad\ Pattern.jpg);
+width: 900px;
+height: 600px;
+}
+.flex-order-catering{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    text-align: center;
+}
+.grid-display-of-our-photos{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    grid-area: auto;
+}
+.grid-img-of-five{
+    width: 260px;
+    height: 250px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padding{
+    padding: 10px;
+}
+/* Change navBar on scroll */
+.nav-scrolled .logo-img-container img {
+  width: 214px;
+  height: 80px;
+  padding-top: 70px;
+}
+
+
+
+
+/* -------------------- */
+body{
+    text-align: center;
+    color:#334834;
+    font-family: 'Montserrat';
+   
+}
+.column1{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+     padding: 30px 10px 30px 10px;
+    justify-content: space-around;
+
+}
+.column2{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+     padding: 30px 10px 30px 10px;
+    justify-content: space-around;
+
+    
+}
+
+img.dar{
+    border-radius: 10px;
+    border-left:#334834;
+    border-right:#334834; 
+}
+
+
+img{
+    /* width: 350px;
+    height: 230px; */
+    width: auto;
+    height: 250px;
+     
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    width: 400px;
+}
+
+.mainsection{
+    width: 100%;
+}
+@media (max-width:900px) {
+    body{
+        text-align: center;
+    }
+
+    .column1{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column2{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        width: auto;
+        text-align: center;
+    }
+}
