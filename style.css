@@ -18,14 +18,24 @@ height: 100vh;
     background-size: cover;
 }
 
+
 .flex-nav{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     text-align: center;
+    padding: 0 8px 0 8px;
+    margin: 10px 10px 10px 10px; 
+
 }
+
+
 .flex-nav a{
-    padding: 10px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
 }
 
 .white-background{
@@ -33,13 +43,16 @@ height: 100vh;
 }
 .btn-order-online{
     box-shadow: 4px 5px #000000;
-    border: 2px solid #334834;
-    border-radius: 3px;
+    border: 2px solid #000000;
+    padding: 0 5px 0 5px;
+    margin-left: 9px;
+
+
 }
 ul li a, li{
     list-style-type: none;
     text-decoration: none;
-    color: #3d513f;
+    color: #000000;
     font-size: 15px;
     font-family: sans-serif;
     text-transform:
@@ -48,10 +61,10 @@ ul li a, li{
 }
 
 .border{
-    border: 1.5px solid #334834;
-    border-radius:3px;
-    box-shadow: 10px 5px #334834;
+    border: 1.5px solid black;
+    box-shadow: 10px 5px rgb(255, 225, 0);
 }
+
 a:hover{
     text-decoration:underline ;
     font-weight:bold;
@@ -68,23 +81,31 @@ a:hover{
 .flex-section-background{
     width: 100%;
     height: 400px;
-    background-color: #334834;
-    color: white;
+    background-color: rgb(255, 225, 0);
+    color: black;
 }
 
 .font-size{
 font-size: 50px;
 }
 .font-family{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+
 }
-.flex-section h1{
+/* .flex-section h1{
     background-color: rgba(255, 255, 255, 0.5);
-}
+} */
 
 .btn-menu{
+<<<<<<< HEAD
     font-size: 14px;
     padding: 8px;
+=======
+    font-size: 16px;
+    padding: 12px;
+>>>>>>> f96d7ed (pushing modified main)
     text-align: center;
     margin: 8px;
 }
@@ -93,13 +114,12 @@ font-size: 50px;
     color: black;
 }
 .btn-menu a:hover{
-    color: white;
-    background-color: #3d513f;
+    background-color: rgb(255, 225, 0);
 }
 .btn-menu:hover{
-    background-color: #334834;
-    color: white;
-    border: 1px solid white;
+    background-color: rgb(255, 225, 0);
+    color: black;
+    border: 1px solid black;
 
 }
 .font-weight{
@@ -132,8 +152,8 @@ font-size: 50px;
     padding: 50px;
 }
 .background-color-order-catering{
-    background-color: #334834;
-    color: #ffffff;
+    background-color: rgb(255, 225, 0);
+    color: black;
     width: fit-content;
     text-align: center;
     margin: auto;
