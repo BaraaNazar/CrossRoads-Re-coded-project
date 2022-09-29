@@ -141,12 +141,13 @@ box-sizing: border-box;
     text-align: center;
     font-size: 12px;
     margin: 10px;
+    letter-spacing: -2;
+    margin-bottom: 10px;
 }
 
 .price {
     font-weight: 600;
-    margin:0;
-    display: block;
+    margin-top: 20px;
 }
 
 .menuitemheader {
